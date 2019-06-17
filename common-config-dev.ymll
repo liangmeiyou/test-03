@@ -1,0 +1,4 @@
+mybatis: 
+  configuration: 
+    map-underscore-to-camel-case: true            #开启Mybatis驼峰命名规则
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #设置mybatis显示SQL语句
